@@ -9,7 +9,7 @@ class HomeController extends Controller
     /**
      * Create a new controller instance.
      *
-     * @return void
+     * @return voidwe
      */
     public function __construct()
     {
@@ -23,6 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('layouts.dashboard');
     }
 }

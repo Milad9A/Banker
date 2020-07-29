@@ -84,7 +84,7 @@
             },
 
             /**
-             * Get all of the authorized tokens for the user.
+             * Get all of the authorized tokens for the users.
              */
             getTokens() {
                 axios.get('/oauth/tokens')

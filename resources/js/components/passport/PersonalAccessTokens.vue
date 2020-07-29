@@ -202,7 +202,7 @@
             },
 
             /**
-             * Get all of the personal access tokens for the user.
+             * Get all of the personal access tokens for the users.
              */
             getTokens() {
                 axios.get('/oauth/personal-access-tokens')
@@ -274,7 +274,7 @@
             },
 
             /**
-             * Show the given access token to the user.
+             * Show the given access token to the users.
              */
             showAccessToken(accessToken) {
                 $('#modal-create-token').modal('hide');

@@ -313,7 +313,7 @@
             },
 
             /**
-             * Get all of the OAuth clients for the user.
+             * Get all of the OAuth clients for the users.
              */
             getClients() {
                 axios.get('/oauth/clients')
@@ -330,7 +330,7 @@
             },
 
             /**
-             * Create a new OAuth client for the user.
+             * Create a new OAuth client for the users.
              */
             store() {
                 this.persistClient(
@@ -394,7 +394,7 @@
             },
 
             /**
-             * Show the given client secret to the user.
+             * Show the given client secret to the users.
              */
             showClientSecret(clientSecret) {
                 this.clientSecret = clientSecret;
